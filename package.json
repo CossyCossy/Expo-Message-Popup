@@ -1,0 +1,24 @@
+{
+  "name": "messagepopup",
+  "version": "1.0.0",
+  "description": "custom toast message that pops up on the mobile screen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "dependencies": {
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react": "16.13.1",
+    "react-native-animatable": "^1.3.3",
+    "react-native-svg": "^12.1.1"
+  },
+  "keywords": [
+    "messagepopup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CossyCossy/Expo-Message-Popup.git"
+  },
+  "author": "Cosmas Mbuvi <liqweedkosgey@gmail.com>",
+  "license": "MIT"
+}
