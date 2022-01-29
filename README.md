@@ -1,6 +1,6 @@
-## Popup Message 
+# Popup Message 
 
-# This version if for react native applications
+## This version if for react native applications
 
 A simple and fully customizable React Native component that implements toast message popup. 
 * Pop up can be displayed on any position on the screen. 
@@ -29,9 +29,9 @@ Simply place a `<MessagePopup />` tag for each desired step within the `<Message
 ```
 
 <MessagePopup
-    title={data.actionMessageTitle}
-    description={data.actionMessageDescription}
-    messageType={data.actionType}
+    title={'Title'}
+    description={'description'}
+    messageType={'success' or 'error'}
     icon={<SvgImage
         containerStyle={{
             width: `${25}px`,
@@ -42,3 +42,9 @@ Simply place a `<MessagePopup />` tag for each desired step within the `<Message
 />
 
 ```
+## Contributing
+Pull requests are always welcome! Feel free to open a new GitHub issue for any changes that can be made.
+## Author
+Cosmas Mbuvi | [https://crunchgarage.com](https://crunchgarage.com)
+## License
+[MIT](./LICENSE)
